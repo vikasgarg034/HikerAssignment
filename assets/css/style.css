@@ -1,0 +1,115 @@
+/* Global */
+.swiper-pagination-bullet-active {
+    background: black !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    top: 94% !important; 
+}
+.heading h3{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+/* Navbar */
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 32px;
+}
+.important-icons .fa{
+    font-size: 1.5rem;
+}
+/* Carousel */
+.mobile .item h5{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 0.75rem;
+}
+/* Best Seller */
+.best-seller h5{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.best-seller-img{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(227, 227, 227);
+}
+
+/* Mobile Mount */
+.swiper-pagination-bullet {
+    width: 30px !important;
+    height: 5px !important;
+    border-radius: 0px !important;
+}
+.mobile-mount .item h5{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Lifestyle */
+.lifestyle .item h5{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* Features */
+.features h6{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.features .fa-whatsapp{
+    font-size: 3rem;
+}
+
+/* Our Customer */
+.our-customer{
+    background-color: #f6f6f6;
+}
+.our-customer .fa-heart{
+    color: red;
+}
+.our-customer .fa-quote-right{
+    top: 38px;
+    right: 21px;
+    font-size: 50px;
+    z-index: 11;
+    color: gray;
+}
+.our-customer h5{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.our-customer p{
+    font-size: 1rem;
+}
+.our-customer .fa-instagram{
+    font-size: 1.5rem;
+}
+/* Products */
+.products{
+    background-color: black;
+}
+.products .fa{
+    color: white;
+    font-size: 3rem;
+}
+.products p{
+    color: white;
+}
+
+@media screen and (min-width:576px) {
+    .mobile .item h5{
+        font-size: 1rem;
+    }
+    .offer-container, .office-bg, .office-bg, .earphone-bg, .covid-bg, .acessories-bg{
+        height: 400px;
+    }
+    .offer-container img, .office-bg img, .office-bg img, .earphone-bg img, .covid-bg img, .acessories-bg img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
